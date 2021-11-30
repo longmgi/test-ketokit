@@ -35,7 +35,7 @@
         @apply lg:leading-[34px];
     }
     h4{
-        @apply text-base;
+        @apply text-xl;
         @apply font-bold;
         line-height: 21px;
     }
