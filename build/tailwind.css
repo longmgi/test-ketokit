@@ -763,6 +763,9 @@ ul.arrow li::before {
 .mt-\[60\%\] {
 	margin-top: 60%;
 }
+.mt-4 {
+	margin-top: 1rem;
+}
 .mt-7 {
 	margin-top: 1.75rem;
 }
@@ -774,9 +777,6 @@ ul.arrow li::before {
 }
 .mt-3 {
 	margin-top: 0.75rem;
-}
-.mt-4 {
-	margin-top: 1rem;
 }
 .block {
 	display: block;
@@ -796,14 +796,11 @@ ul.arrow li::before {
 .h-full {
 	height: 100%;
 }
-.h-\[370px\] {
-	height: 370px;
-}
-.h-\[300px\] {
-	height: 300px;
-}
 .h-\[400px\] {
 	height: 400px;
+}
+.h-\[370px\] {
+	height: 370px;
 }
 .min-h-\[72px\] {
 	min-height: 72px;
@@ -868,9 +865,6 @@ ul.arrow li::before {
 }
 .flex-row {
 	flex-direction: row;
-}
-.place-content-center {
-	place-content: center;
 }
 .items-center {
 	align-items: center;
@@ -1019,6 +1013,10 @@ ul.arrow li::before {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+.px-10 {
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
 .px-7 {
 	padding-left: 1.75rem;
 	padding-right: 1.75rem;
@@ -1030,10 +1028,6 @@ ul.arrow li::before {
 .py-\[50px\] {
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-.px-10 {
-	padding-left: 2.5rem;
-	padding-right: 2.5rem;
 }
 .pt-3 {
 	padding-top: 0.75rem;
@@ -1208,6 +1202,10 @@ ul.arrow li::before {
 
 	.md\:mb-16 {
 		margin-bottom: 4rem;
+	}
+
+	.md\:min-h-\[72px\] {
+		min-height: 72px;
 	}
 
 	.md\:w-auto {
@@ -1448,10 +1446,6 @@ ul.arrow li::before {
 
 	.lg\:max-w-4xl {
 		max-width: 56rem;
-	}
-
-	.lg\:max-w-2xl {
-		max-width: 42rem;
 	}
 
 	.lg\:grid-cols-5 {
