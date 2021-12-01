@@ -802,6 +802,9 @@ ul.arrow li::before {
 .h-\[370px\] {
 	height: 370px;
 }
+.h-auto {
+	height: auto;
+}
 .min-h-\[72px\] {
 	min-height: 72px;
 }
@@ -1202,6 +1205,10 @@ ul.arrow li::before {
 
 	.md\:mb-16 {
 		margin-bottom: 4rem;
+	}
+
+	.md\:h-\[400px\] {
+		height: 400px;
 	}
 
 	.md\:min-h-\[72px\] {
