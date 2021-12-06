@@ -746,6 +746,21 @@ ul.arrow li::before {
 .top-\[71\.5\%\] {
 	top: 71.5%;
 }
+.top-\[50\%\] {
+	top: 50%;
+}
+.top-\[65\%\] {
+	top: 65%;
+}
+.top-\[60\%\] {
+	top: 60%;
+}
+.top-\[55\%\] {
+	top: 55%;
+}
+.top-\[58\%\] {
+	top: 58%;
+}
 .order-last {
 	order: 9999;
 }
@@ -1394,6 +1409,22 @@ ul.arrow li::before {
 		margin-bottom: 0px;
 	}
 
+	.md\:mt-\[20\%\] {
+		margin-top: 20%;
+	}
+
+	.md\:mt-\[10\%\] {
+		margin-top: 10%;
+	}
+
+	.md\:mt-\[15\%\] {
+		margin-top: 15%;
+	}
+
+	.md\:mt-\[16\%\] {
+		margin-top: 16%;
+	}
+
 	.md\:h-\[400px\] {
 		height: 400px;
 	}
@@ -1739,6 +1770,10 @@ ul.arrow li::before {
 
 	.xl\:w-2\/4 {
 		width: 50%;
+	}
+
+	.xl\:w-\[500px\] {
+		width: 500px;
 	}
 
 	.xl\:max-w-6xl {
