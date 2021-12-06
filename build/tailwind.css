@@ -936,6 +936,11 @@ ul.arrow li::before {
 .list-inside {
 	list-style-position: inside;
 }
+.appearance-none {
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+}
 .auto-cols-max {
 	grid-auto-columns: -webkit-max-content;
 	grid-auto-columns: max-content;
@@ -970,6 +975,12 @@ ul.arrow li::before {
 .justify-center {
 	justify-content: center;
 }
+.justify-around {
+	justify-content: space-around;
+}
+.justify-items-stretch {
+	justify-items: stretch;
+}
 .gap-5 {
 	gap: 1.25rem;
 }
@@ -981,6 +992,9 @@ ul.arrow li::before {
 }
 .place-self-start {
 	place-self: start;
+}
+.place-self-end {
+	place-self: end;
 }
 .place-self-center {
 	place-self: center;
@@ -1044,6 +1058,9 @@ ul.arrow li::before {
 }
 .border {
 	border-width: 1px;
+}
+.border-t {
+	border-top-width: 1px;
 }
 .border-nav {
 	--tw-border-opacity: 1;
@@ -1734,6 +1751,26 @@ ul.arrow li::before {
 
 	.lg\:pl-10 {
 		padding-left: 2.5rem;
+	}
+
+	.lg\:pr-7 {
+		padding-right: 1.75rem;
+	}
+
+	.lg\:pr-\[27px\] {
+		padding-right: 27px;
+	}
+
+	.lg\:pr-6 {
+		padding-right: 1.5rem;
+	}
+
+	.lg\:pr-\[25px\] {
+		padding-right: 25px;
+	}
+
+	.lg\:pr-\[23px\] {
+		padding-right: 23px;
 	}
 
 	.lg\:text-5xl {
