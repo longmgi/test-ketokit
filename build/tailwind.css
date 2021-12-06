@@ -1112,6 +1112,9 @@ ul.arrow li::before {
 .p-5 {
 	padding: 1.25rem;
 }
+.p-6 {
+	padding: 1.5rem;
+}
 .px-5 {
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
