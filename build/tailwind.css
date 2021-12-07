@@ -1170,6 +1170,9 @@ video {
 .pr-\[23px\] {
 	padding-right: 23px;
 }
+.pr-\[28px\] {
+	padding-right: 28px;
+}
 .text-left {
 	text-align: left;
 }
@@ -1568,6 +1571,18 @@ video {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 
+	.lg\:justify-start {
+		justify-content: flex-start;
+	}
+
+	.lg\:justify-end {
+		justify-content: flex-end;
+	}
+
+	.lg\:justify-items-start {
+		justify-items: start;
+	}
+
 	.lg\:gap-8 {
 		gap: 2rem;
 	}
@@ -1611,6 +1626,10 @@ video {
 
 	.lg\:pb-0 {
 		padding-bottom: 0px;
+	}
+
+	.lg\:pr-\[28px\] {
+		padding-right: 28px;
 	}
 
 	.lg\:text-left {
