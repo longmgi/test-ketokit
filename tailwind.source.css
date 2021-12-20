@@ -55,5 +55,11 @@
 	.slide{
 		-ms-overflow-style: none;  /* IE and Edge */
 		scrollbar-width: none;  /* Firefox */
+        scroll-snap-type: x mandatory;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-x: repeat(300px);
 	}
+    .slide .item-scroll{
+        scroll-snap-align: start;
+    }
 }
