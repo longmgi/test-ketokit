@@ -931,7 +931,15 @@
 .filter {
       filter: var(--tw-filter);
 }
-
+.logo
+{
+  width: 200px;
+  margin: 400px auto 0 auto;
+}
+.slogan{
+  width: 400px;
+  margin: 20px auto;
+}
 body, html {min-height: 100vh;}
 
 @media (min-width: 640px) {
