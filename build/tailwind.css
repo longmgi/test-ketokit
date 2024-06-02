@@ -1170,6 +1170,9 @@ video {
   width: 400px;
   margin: 20px auto;
 }
+.h-full{
+	height: 100vh;
+}
 @media (min-width: 640px) {
 
 	.sm\:w-5\/12 {
