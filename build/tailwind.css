@@ -1174,6 +1174,7 @@ video {
 	height: 100vh;
 }
 .text{
+	align-items: center;
 	align-content: center;
 	line-height: 100%;
 }
