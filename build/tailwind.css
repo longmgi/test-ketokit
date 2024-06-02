@@ -1167,7 +1167,7 @@ video {
   margin: 160px auto 0 auto;
 }
 .slogan{
-  width: 400px;
+  width: 800px;
   margin: 20px auto;
 }
 .h-full{
@@ -1380,6 +1380,15 @@ video {
 
 	.md\:leading-\[62px\] {
 		line-height: 62px;
+	}
+	.logo
+	{
+	  width: 30vw;
+	  margin: 160px auto 0 auto;
+	}
+	.slogan{
+	  width: 70vw;
+	  margin: 20px auto;
 	}
 }
 @media (min-width: 1024px) {
